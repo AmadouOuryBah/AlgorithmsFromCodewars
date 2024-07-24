@@ -22,8 +22,8 @@ function persistence(num) {
         }
     }
 
-    return recursivePersistence(num); // Start the recursion
+    return recursivePersistence(num); 
 }
 
 let result = persistence(999);
-console.log(result); // Output: 3
+console.log(result); 
